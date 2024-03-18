@@ -2,16 +2,17 @@
   "name": "doctor_appointment_system",
   "version": "1.0.0",
   "description": "",
-  "type": "module" ,
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "start-dev":"nodemon index.js"
+    "start-dev": "nodemon index.js"
   },
   "author": "Ayush",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
